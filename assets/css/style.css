@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  background-repeat: repeat;
+  background-color:#3e5889;
+  color:#777;
+}
+nav, .content, .foot-container {
+  width: 960px;
+  margin: auto;
+}
+
+/* TOP NAVICAGTION STYLES ######################################## */
+header{
+  background-color:#FFF;
+  border-bottom: 3px solid #CCC;
+  margin-bottom: 30px;
+}
+nav{
+  display:flex;
+}
+.logo {
+  padding: 15px 30px;
+  background: #4AAAA5;
+}
+.logo h1{
+  color: #FFF;
+  font-size: 2em;
+}
+.nav-menu {
+  margin-left: auto;
+  display:flex;
+  height: inherit;
+  align-items: center;
+}
+.nav-menu li {
+  float:left;
+  list-style: none;
+  border-right: 1px solid rgba(200,200,200,.5);
+  padding: 5px 10px;
+}
+.nav-menu li:last-of-type{
+  border: none;
+}
+.nav-menu a {
+  font-size: 1.25em;
+  text-decoration: none;
+  color: #777;
+}
+.nav-menu a:hover{
+  color: #4AAAA5;
+}
+
+
+/* CONTENT STYLES ############################################# */
+.content {
+  padding: 0 30px;
+  background-color: white;
+}
+.content h1{
+  color: #4AAAA5;
+  margin-bottom: 30px;
+}
+.bio::after{
+  content:"";
+  display:table;
+  clear:both
+}
+.profile-picture{
+  height: 275px;
+  width: 275px;
+  float: left;
+}
