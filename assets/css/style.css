@@ -8,6 +8,7 @@ body{
   font-size: 1em;
   background-repeat: repeat;
   background-color:#3e5889;
+  background-image: url(../images/background.png);
   color:#777;
 }
 nav, .content, .foot-container {
